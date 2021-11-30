@@ -1,0 +1,331 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 23678,
+      "max": [
+        0.10774286091327667,
+        0.10778386890888214,
+        0.10835475474596024
+      ],
+      "min": [
+        -0.10760498046875,
+        -0.10778387635946274,
+        -0.10835474729537964
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 284136,
+      "componentType": 5126,
+      "count": 23678,
+      "max": [
+        0.99984931945800781,
+        1,
+        1
+      ],
+      "min": [
+        -0.99996089935302734,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 23678,
+      "max": [
+        0.99242424964904785,
+        0.4723820686340332
+      ],
+      "min": [
+        0.0075757508166134357,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 102528,
+      "max": [
+        23677
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 568272,
+      "componentType": 5126,
+      "count": 1300,
+      "max": [
+        -0.062578439712524414,
+        0.030054472386837006,
+        0.086527347564697266
+      ],
+      "min": [
+        -0.10760498046875,
+        -0.030054470524191856,
+        -0.012650351040065289
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 583872,
+      "componentType": 5126,
+      "count": 1300,
+      "max": [
+        0.64901828765869141,
+        0.99967575073242188,
+        0.99925196170806885
+      ],
+      "min": [
+        -0.99957811832427979,
+        -0.99967575073242188,
+        -0.99013972282409668
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 189424,
+      "componentType": 5126,
+      "count": 1300,
+      "max": [
+        0.22254416346549988,
+        0.37103158235549927
+      ],
+      "min": [
+        0.14109185338020325,
+        0.21816684305667877
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 410112,
+      "componentType": 5125,
+      "count": 6912,
+      "max": [
+        1299
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "A_dub (https://sketchfab.com/A_dub)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bowling-ball-5377e2fa1d904a8c919341c6b3e0f182",
+      "title": "Bowling Ball"
+    },
+    "generator": "Sketchfab-8.78.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 437760,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 199824,
+      "byteOffset": 437760,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 599472,
+      "byteOffset": 637584,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1237056,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Bowling_Ball",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0020634500000000001,
+          0.0020634500000000001,
+          0.0020634500000000001,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.10000000000000001
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Hole_Colour",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.80000000000000004,
+          0.030877499999999999,
+          0.0275369,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.10000000000000001
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Bowling Ball_Bowling Ball_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Bowling Ball_Hole Colour_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "381aecf6751f4c55b2fbba788d79f883.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        0,
+        10.457931518554688,
+        0,
+        1
+      ],
+      "name": "Bowling Ball"
+    },
+    {
+      "mesh": 0,
+      "name": "Bowling Ball_Bowling Ball_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Bowling Ball_Hole Colour_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

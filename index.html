@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+
+    <script src="./JS/createBall.js"></script>
+
+    <title>Project 162</title>
+</head>
+
+<body>
+    <a-scene id="scene" color="black">
+
+        <a-assets>
+            <a-assets-item id="pin" src="./models/bowlingpin/scene.gltf"></a-assets-item>
+        </a-assets>
+
+
+        <a-camera id="camera" position="0 2 0" rotation="0 0.34377467707849396 0">
+            <a-cursor></a-cursor>
+
+            <a-entity id="info" position="-1.27322 0.76627 -1.04453"
+                text="font: exo2bold; align: center; width: 1; color: #fff; value: Use 'v' to throw the ball">
+            </a-entity>
+
+            <a-entity id="info" position="-1.57373 0.84978 -1.06879"
+                text="font: exo2bold; align: center; width: 1; color: #000; value: Use 'v' to throw the ball">
+            </a-entity>
+
+
+        </a-camera>
+
+
+        <a-entity id="Pins">
+            <a-entity id="bowllingPin-3" gltf-model="./models/bowlingpin/scene.gltf" position="0.07033 0.2 -12.53297"
+                scale="0.04 0.04 0.04" dynamic-body="mass:2">
+            </a-entity>
+            <a-entity id="bowllingPin-7" gltf-model="./models/bowlingpin/scene.gltf" position="0.13151 0.2 -13.17407"
+                scale="0.04 0.04 0.04" dynamic-body="mass:2">
+            </a-entity>
+            <a-entity id="bowllingPin-4" gltf-model="./models/bowlingpin/scene.gltf" position="-0.46341 0.2 -12.60259"
+                scale="0.04 0.04 0.04" dynamic-body="mass:2">
+            </a-entity>
+            <a-entity id="bowllingPin-2" gltf-model="./models/bowlingpin/scene.gltf" position="0.52549 0.2 -12.60683"
+                scale="0.04 0.04 0.04" dynamic-body="mass:2">
+            </a-entity>
+            <a-entity id="bowllingPin-8" gltf-model="./models/bowlingpin/scene.gltf" position="-0.31768 0.2 -13.19415"
+                scale="0.04 0.04 0.04" dynamic-body="mass:2">
+            </a-entity>
+            <a-entity id="bowllingPin-5" gltf-model="./models/bowlingpin/scene.gltf" position="0.57518 0.2 -13.14901"
+                scale="0.04 0.04 0.04" dynamic-body="mass:2">
+            </a-entity>
+            <a-entity id="bowllingPin-9" gltf-model="./models/bowlingpin/scene.gltf" position="-0.85116 0.2 -13.21638"
+                scale="0.04 0.04 0.04" dynamic-body="mass:2">
+            </a-entity>
+            <a-entity id="bowllingPin-1" gltf-model="./models/bowlingpin/scene.gltf" position="1.08368 0.2 -13.14234"
+                scale="0.04 0.04 0.04" dynamic-body="mass:2">
+            </a-entity>
+            <a-entity id="bowllingPin-1" gltf-model="./models/bowlingpin/scene.gltf" position="0.05688 0.2 -12.18723"
+                scale="0.04 0.04 0.04" dynamic-body="mass:2">
+            </a-entity>
+        </a-entity>
+
+        <!-- bowling alley -->
+        <a-box position="3.65657 0.34807 -6.49939" color="brown" scale="1 1 16.9676" id="right" static-body>
+        </a-box>
+        <a-box position="0 0.07707 -6.48491" color="brown" scale="4.88293 0.29589 16.90664" static-body id="mid">
+        </a-box>
+        <a-box position="-3.65657 0.34807 -6.49939" color="brown" scale="1 1 16.9676" id="left" static-body>
+        </a-box>
+        </a-box>
+        <a-box position="0 -0.38664 -6.46554" scale="8.90126 0.33886 17.43936" color="grey" id="bottom"></a-box>
+
+
+        <!-- throwingIn -->
+        <a-box position="-0.08956 -0.37041 -16.31348" rotation="-90 0 0" scale="15.11905 8.21887 0.27462"
+            material="color: #9c9c9c" id="strike" static-body="sphereRadius: NaN" visible="false"></a-box>
+
+        <a-box position="-0.04534 1.10868 -15.22435" scale="9.00999 3.28489 0.22617" material="color: #9c9c9c"
+            id="strike-demo"></a-box>
+
+        <a-entity create-ball></a-entity>
+    </a-scene>
+</body>
+
+</html>

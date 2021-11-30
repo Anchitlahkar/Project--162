@@ -1,0 +1,292 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 902,
+      "max": [
+        0.061593003571033478,
+        0.061592999845743179,
+        0.3825480043888092
+      ],
+      "min": [
+        -0.061592999845743179,
+        -0.061592999845743179,
+        -7.5174728408455849e-05
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10824,
+      "componentType": 5126,
+      "count": 902,
+      "max": [
+        0.9999997615814209,
+        0.9999997615814209,
+        1
+      ],
+      "min": [
+        -0.9999997615814209,
+        -0.9999997615814209,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6444,
+      "max": [
+        901
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 21648,
+      "componentType": 5126,
+      "count": 144,
+      "max": [
+        0.028900759294629097,
+        0.028900753706693649,
+        0.28360703587532043
+      ],
+      "min": [
+        -0.028900757431983948,
+        -0.0289007518440485,
+        0.2289411723613739
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 23376,
+      "componentType": 5126,
+      "count": 144,
+      "max": [
+        0.99892914295196533,
+        0.99894052743911743,
+        0.10611721128225327
+      ],
+      "min": [
+        -0.99892914295196533,
+        -0.99894052743911743,
+        -0.31456312537193298
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 25776,
+      "componentType": 5125,
+      "count": 576,
+      "max": [
+        143
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "A_dub (https://sketchfab.com/A_dub)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bowlingpin-320d74038d7d49fba699d5711202141b",
+      "title": "BowlingPin"
+    },
+    "generator": "Sketchfab-8.78.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 28080,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 25104,
+      "byteOffset": 28080,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 53184,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.80000000000000004,
+          0.80000000000000004,
+          0.80000000000000004,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.10000000000000001
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Pin_Stripes",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.79999999999999993,
+          0.027312099999999971,
+          0.037970399999999967,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.90000000000000002
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Bowling Pin_Pin_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Bowling Pin_Pin Stripes_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "b9cbc63c9dda498587f037d7e9e9d3ab.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Bowling Pin"
+    },
+    {
+      "mesh": 0,
+      "name": "Bowling Pin_Pin_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Bowling Pin_Pin Stripes_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
