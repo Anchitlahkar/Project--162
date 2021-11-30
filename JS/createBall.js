@@ -70,3 +70,4 @@ AFRAME.registerComponent("create-ball", {
     }
   },
 });
+
