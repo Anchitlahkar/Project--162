@@ -1,7 +1,7 @@
 AFRAME.registerComponent("create-ball", {
   schema: {},
 
-  init: function () {
+  update: function () {
     // Do something when component first attached.
     this.throwBall();
   },
