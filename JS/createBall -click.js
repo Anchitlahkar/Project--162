@@ -9,6 +9,8 @@ AFRAME.registerComponent("create-ball", {
   throwBall: function () {
     window.addEventListener("click", (e) => {
       
+      if(e){
+      
         var ball = document.createElement("a-entity");
 
         ball.setAttribute("geometry", {
@@ -44,7 +46,7 @@ AFRAME.registerComponent("create-ball", {
         var scene = document.querySelector("#scene");
 
         scene.appendChild(ball);
-      
+      }
     });
   },
 
